@@ -18,7 +18,7 @@ This report analyses the information that was compiled from those mining activit
 
 *How did users interact with the platform?
 *How did voters apply the Harberger Tax?
-*What is a successful depositing strategy ?
+*What is a successful depositing strategy?
 *How did the new mechanism improve allocation efficiency?
 
 ### Description of the Data
@@ -53,7 +53,7 @@ Data for 52 Rounds on ETH Mainnet and 30 Rounds on BSC
 
 ### Methods Used
 * Descriptive Statistics
-* Data Cleaning, Eda, Data Wrangeling
+* Data Cleaning, EDA, Data Wrangeling
 * Data Visualization
 
 ### Technologies
