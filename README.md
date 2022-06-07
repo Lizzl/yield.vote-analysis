@@ -1,4 +1,4 @@
-# yield.vote-analysis
+# The Creation of Perma-Liquidity
 ## Creating a report on yield.vote , a new kind of liquidity mining dapp
 
 
@@ -14,42 +14,32 @@ Harberger Taxes are an economic paradigm proposed by Glen Weyl and Eric Posner t
 If a purchaser values the property higher than the current owner, they can take ownership of the property. In other words, every property is always on sale.It is a tax, because the owners pay a tax based on the declared valuation of their property, effectively designing their own tax regime with higher taxes protecting their property from sale.
 
 Since September 2021, yield.vote has seen 32 participating wallets, depositing a total of over 53 000 SLPs (Sushi Liquidity Pool Tokens ).
-This report analyses the information that was compiled from those mining activities. The main questions answered are:
+This report analyses the information that was compiled from those mining activities. 
+***The main questions answered are:***
 
 * How did users interact with the platform?
 * How did voters apply the Harberger Tax?
 * What is a successful depositing strategy?
 * How did the new mechanism improve allocation efficiency?
 
+
+### Smart contract addresse
+Find more info on the smart contract as well as an description of the events here [LiquidityFactory](https://etherscan.io/address/0xfe64d9A8Fd6565b6842d6574871D929809424280#code). 
+
+Addresse:
+0xfe64d9A8Fd6565b6842d6574871D929809424280
+
 ### Description of the Data
-[voice-data_ETH-52.csv](https://github.com/datadeo/market.vote_analysis/blob/main/voice-data_ETH_52.csv) ,
-[voice-data_BSC-30.csv](https://github.com/datadeo/market.vote_analysis/blob/main/Vote-Data_BSC_30.csv)
-***voiceCredits*** - the amount of voting power accumulated
-***voterID*** - unique number for each finance.vot identity
-Data for 52 Rounds on ETH Mainnet and 30 Rounds on BSC
+[yield-slots_data.csv](https://github.com/Lizzl/yield.vote-analysis/blob/main/yield-slots_data.csv)
+Raw data, queried from the blockchain.
+Please note that the data refers to the deposit of the new owner, except for rewardsFVTForSession, which is the reward paid out to the previous slot owner, who gets evicted. 
 
-[Marketwinner_ETH.csv](https://github.com/datadeo/market.vote_analysis/blob/main/Marketwinner_ETH.csv) ,
-[Marketwinner_BSC.csv](https://github.com/datadeo/market.vote_analysis/blob/main/market_winner_bsc.csv)
-***round*** - completed round
-***winnerindex*** - top-voted coin in that round, coins are indexed according to their position in the voting table
-Both datasets are for 30 rounds
+[yield-slots_data10.csv]([https://github.com/Lizzl/yield.vote-analysis/blob/main/yield-slots_data.csv](https://github.com/Lizzl/yield.vote-analysis/blob/main/yield-slots_data10.csv))
+The datasets contains of the data for 10 Pulses from the Resident Pool. 
 
-[ID_per_wallet_ETH_30.xml](https://github.com/datadeo/market.vote_analysis/blob/main/ID_per_wallet_ETH_30.xml) ,
-[ID_per_wallet_BSC_30.xml](https://github.com/datadeo/market.vote_analysis/blob/main/ID_per_wallet_BSC_30.xml)
-***voterIds*** - the number of identities each wallet minted
-***coin*** - winning coin
-Snapshot taken after 30 rounds
+[yield-burnrate10.csv][https://github.com/Lizzl/yield.vote-analysis/blob/main/yield-burnrate10.csv]
+Extra spreadsheet for burn rate converted into ETH. 
 
-[vote-data_ETH_52.csv](https://github.com/datadeo/market.vote_analysis/blob/main/vote-data_ETH_52.csv) ,
-[vote-data_BSC_30.csv](https://github.com/datadeo/market.vote_analysis/blob/main/Vote-Data_BSC_30.csv)
-***roundid*** - number of rounds
-***voterID*** - unique number for each finance.vot identity
-***choices*** - index of the coins that were picked in each vote, the index is similiar to winnerindex, each coin is indexed according to its position in the voting table
-***weights*** - the combination that was picked to weight the respective votes, per default users have 100$V (voting power). The amount of $V spent is the square of the weights
-***voiceCreditsused*** - the amout of voting power spent
-***choicesmade*** - total number of choices made
-***currentVoiceCredits*** - total of voting power user holds at moment of vote
-Data for 52 Rounds on ETH Mainnet and 30 Rounds on BSC
 
 ### Methods Used
 * Descriptive Statistics
@@ -63,9 +53,11 @@ Data for 52 Rounds on ETH Mainnet and 30 Rounds on BSC
 
 
 ## Featured Notebooks/Analysis/Deliverables
-* [Clean Datasets as CSV](https://github.com/Lizzl/market.vote_analysis)
+* [Clean Datasets as CSV](https://github.com/Lizzl/yield.vote-analysis))
+* [jupyter notebook_data-getter](https://github.com/Lizzl/yield.vote-analysis/blob/main/Slots-Data_Getter.ipynb)
+* [jupyter notebook_prep-data](https://github.com/Lizzl/yield.vote-analysis/blob/main/Prep-Yield-Data_CorrMatrix.ipynb)
 * [SQL Queries](https://github.com/Lizzl/market.vote_analysis/blob/main/voting_markets_EDA.sql)
-* [Report](https://cryptpad.fr/file/#/2/file/CEkavekX8koJowgJHwiLTWFA/)
-* Dune Dashboard 
+* [Report](https://github.com/Lizzl/yield.vote-analysis/blob/main/Yield_Report_V01.pdf)
+
 
 
