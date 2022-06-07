@@ -16,10 +16,10 @@ If a purchaser values the property higher than the current owner, they can take 
 Since September 2021, yield.vote has seen 32 participating wallets, depositing a total of over 53 000 SLPs (Sushi Liquidity Pool Tokens ).
 This report analyses the information that was compiled from those mining activities. The main questions answered are:
 
-*How did users interact with the platform?
-*How did voters apply the Harberger Tax?
-*What is a successful depositing strategy?
-*How did the new mechanism improve allocation efficiency?
+* How did users interact with the platform?
+* How did voters apply the Harberger Tax?
+* What is a successful depositing strategy?
+* How did the new mechanism improve allocation efficiency?
 
 ### Description of the Data
 [voice-data_ETH-52.csv](https://github.com/datadeo/market.vote_analysis/blob/main/voice-data_ETH_52.csv) ,
