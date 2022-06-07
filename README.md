@@ -34,7 +34,7 @@ Addresse:
 Raw data, queried from the blockchain.
 Please note that the data refers to the deposit of the new owner, except for rewardsFVTForSession, which is the reward paid out to the previous slot owner, who gets evicted. 
 
-[yield-slots_data10.csv]([https://github.com/Lizzl/yield.vote-analysis/blob/main/yield-slots_data.csv](https://github.com/Lizzl/yield.vote-analysis/blob/main/yield-slots_data10.csv)
+[yield-slots_data10.csv](https://github.com/Lizzl/yield.vote-analysis/blob/main/yield-slots_data10.csv)
 The datasets contains of the data for 10 Pulses from the Resident Pool. 
 
 [yield-burnrate10.csv](https://github.com/Lizzl/yield.vote-analysis/blob/main/yield-burnrate10.csv)
@@ -53,7 +53,7 @@ Extra spreadsheet for burn rate converted into ETH.
 
 
 ## Featured Notebooks/Analysis/Deliverables
-* [Clean Datasets as CSV](https://github.com/Lizzl/yield.vote-analysis))
+* [Clean Datasets as CSV](https://github.com/Lizzl/yield.vote-analysis)
 * [jupyter notebook_data-getter](https://github.com/Lizzl/yield.vote-analysis/blob/main/Slots-Data_Getter.ipynb)
 * [jupyter notebook_prep-data](https://github.com/Lizzl/yield.vote-analysis/blob/main/Prep-Yield-Data_CorrMatrix.ipynb)
 * [SQL Queries](https://github.com/Lizzl/yield.vote-analysis/blob/main/Yield_Queries.sql)
